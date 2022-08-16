@@ -20,8 +20,7 @@ class App extends Component {
 
     clickHandler = () => {
         const sentences = ["if you want peace prepare for war !" , "no pain without gain" , "we are losing objective doha"];
-        // const randomSentence = sentences[Math.floor(Math.random() * sentences.length)];
-        const randomSentence = sentences[0];
+        const randomSentence = sentences[Math.floor(Math.random() * sentences.length)];
         this.input.current.value = "";
         this.setState({
             isStarted : true,
