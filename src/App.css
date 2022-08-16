@@ -1,0 +1,15 @@
+*{
+    font-family: "iranyekan" , sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.form{
+    background-color: #1d1d1d;
+}
+.input{
+    outline: none;
+    border: none;
+    padding: 0.3rem;
+}
